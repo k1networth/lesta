@@ -11,7 +11,7 @@
 Запустите docker-compose и убедитесь, что сервисы работают корректно.
 
 ``` sh
-docker-compose up --build
+docker-compose up --build -d
 
 curl http://localhost:5000/ping
 
